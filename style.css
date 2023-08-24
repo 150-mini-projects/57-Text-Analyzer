@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #3d7ff9;
+}
+
+.wrapper {
+  position: absolute;
+  width: 31.25em;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.inp-container {
+  background-color: #010f2a;
+  border-radius: 0.5em;
+  padding: 4em 2em;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  border: none;
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 0.5em;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  color: #fff;
+}
+
+#analyzeButton {
+  color: #fff;
+  width: 100%;
+  background-color: #3d7ff9;
+  border-radius: 0.5em;
+  font-size: 1em;
+  position: relative;
+  padding: 1.5em 0;
+  margin-top: 1em;
+  border: none;
+  outline: none;
+}
+
+#results {
+  width: 120%;
+  position: relative;
+  right: 10%;
+  background-color: #fff;
+  margin-top: -8em;
+  z-index: -1;
+  padding: 10em 2em 3em 2em;
+  border-radius: 0.5em;
+}
+
+.output-container {
+  font-weight: 500;
+}
+
+.output-container span {
+  font-weight: 400;
+}
